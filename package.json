@@ -1,0 +1,27 @@
+{
+    "name": "@ahmerhh/geometry-plane",
+    "version": "1.0.1",
+    "description" : "Plane geometry, extracted from three.js",
+    "main": "dist/index.js",
+    "scripts": {
+      "prepublish": "npm run build",
+      "build": "babel ./src/index.js --out-file dist/index.js --presets=es2015"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ahmerhh/geometry-plane.git"
+    },
+    "keywords": [
+      "WebGL"
+    ],
+    "author": "ahmerhh <ahmerhh@protonmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ahmerhh/geometry-plane/issues"
+    },
+    "homepage": "https://github.com/ahmerhh/geometry-plane#readme",
+    "devDependencies": {
+      "babel-cli": "^6.4.0",
+      "babel-preset-es2015": "^6.3.13"
+    }
+  }
