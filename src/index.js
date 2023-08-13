@@ -1,3 +1,4 @@
+// @author:$ah
 /**
  * @function getPlaneGeometry
  * Generates geometry data for a plane.
